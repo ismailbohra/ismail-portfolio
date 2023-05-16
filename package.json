@@ -3,7 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ismailbohra.github.io/ismail-portfolio",
   "scripts": {
+    
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -15,6 +19,7 @@
     "vite": "^3.2.3"
   },
   "dependencies": {
-    "flowbite": "^1.5.4"
+    "flowbite": "^1.5.4",
+    "gh-pages": "^5.0.0"
   }
 }
