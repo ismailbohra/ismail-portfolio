@@ -31,7 +31,6 @@ Step 5: To build, run command `npm run build`
 
 ## Important Links
 Github: [https://github.com/ismailbohra/ismail-portfolio](https://github.com/ismailbohra/ismail-portfolio)\
-Live Website: [https://nayanchdatta.netlify.app](https://nayanchdatta.netlify.app/)
-
+Live Website: [[https://github.com/ismailbohra/ismail-portfolio](https://ismailbohra.github.io/ismail-portfolio/)]
 
 ### #Stay Happy, Stay Coding!
