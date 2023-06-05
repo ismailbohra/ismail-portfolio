@@ -13,14 +13,14 @@ const recentWorks = [
         description: "Professional page for personal portfolio showcase.",
         techs: ["Tailwind", "JS", "Vite"],
         img: "/images/IsmailPortfolio.png",
-        link:"https://github.com/ismailbohra/gdsc-android-ipsa"
+        link:"https://ismailbohra.github.io/ismail-portfolio/"
     },
     {
         title: "Inventory Management",
         description: "Doctors appointment booking website.",
         techs: ["Mongoodb", "Node", "Express"],
         img: "/images/inventory_managment.png",
-        link:"https://github.com/ismailbohra/gdsc-android-ipsa"
+        link:"https://github.com/ismailbohra/shoparel"
     }
 ];
 const parent = document.getElementById('recent-works');
