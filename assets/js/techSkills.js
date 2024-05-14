@@ -43,11 +43,6 @@ const techSkills = [
         label: "Expert",
       },
       {
-        icon: `<i class="fa-solid fa-fire text-red-600"></i>`,
-        name: "Firebase",
-        label: "Expert",
-      },
-      {
         icon: `<i class="fa-brands fa-bootstrap text-green-600"></i>`,
         name: "Bootstrap",
         label: "Expert",
@@ -63,8 +58,8 @@ const techSkills = [
         label: "Expert",
       },
       {
-        icon: `<i class="fa-brands fa-node-js text-green-600"></i>`,
-        name: "Express.js",
+        icon: `<i class="fa-brands fa-php text-green-600"></i>`,
+        name: "PHP",
         label: "Expert",
       },
     ],
@@ -83,8 +78,8 @@ const techSkills = [
         label: "Intermediate",
       },
       {
-        icon: `<i class="fa-solid fa-server fa-xs text-green-700"></i>`,
-        name: "Mongoose",
+        icon: `<i class="fa-solid fa-fire text-red-600"></i>`,
+        name: "Firebase",
         label: "Expert",
       },
     ],
@@ -113,19 +108,14 @@ const techSkills = [
     title: "Design Tools",
     skills: [
       {
-        icon: `<i class="fa-solid fa-bezier-curve fa-xs text-yellow-400"></i>`,
-        name: "Adobe Photoshop",
-        label: "Intermediate",
-      },
-      {
-        icon: `<i class="fa-solid fa-bezier-curve fa-xs text-orange-600"></i>`,
-        name: "Adobe Illustrator",
-        label: "Junior",
-      },
-      {
         icon: `<i class="fa-brands fa-figma  text-orange-400"></i>`,
         name: "Figma",
-        label: "Junior",
+        label: "Expert",
+      },
+      {
+        icon: `<i class="fa-brands fa-canva  text-orange-400"></i>`,
+        name: "Canva",
+        label: "Expert",
       },
       {
         icon: `<i class="fa-solid fa-file-powerpoint  text-blue-400"></i>`,

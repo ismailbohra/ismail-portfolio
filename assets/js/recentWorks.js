@@ -1,23 +1,42 @@
 const recentWorks = [
     {
-        title: "GDSC IPS Academy",
-        description: "Community App for GDSC Member of IPS College.",
-        // title:"&nbsp;",
-        // description:"&nbsp;",
-        techs: ["Kotlin", "JetpackCompose"],
-        img: "/images/gdsc2.png",
+        title: "Business Portfolio",
+        description: "Portfolio Website for Ajar Hardware Dubai",
+        techs: ["Html","CSS", "PHP","MySql"],
+        img: "/images/ajar.png",
+        link:"https://ajar-me.com"
+    },
+    {
+        title: "RoadToMotivation Blog",
+        description: "Blogging Website.",
+        techs: ["Codeigniter 3", "Bootstrap","JS"],
+        img: "/images/roadtomotivation.png",
         link:"https://github.com/ismailbohra/gdsc-android-ipsa"
     },
     {
+        title: "Babji Store (E-commerce)",
+        description: "Ecommerce Website.",
+        techs: ["Wordpress", "Woocommerce"],
+        img: "/images/babjistore.png",
+        link:"https://babjistore.com"
+    },
+    {
+        title: "Sadri Jamaat",
+        description: "Community Website.",
+        techs: ["Html","CSS", "PHP","MySql"],
+        img: "/images/sadrijamaat.png",
+        link:"https://sadrijamaat.in"
+    },
+    {
         title: "Personal Portfolio",
-        description: "Professional page for personal portfolio showcase.",
+        description: "Personal portfolio",
         techs: ["Tailwind", "JS", "Vite"],
         img: "/images/IsmailPortfolio.png",
         link:"https://ismailbohra.github.io/ismail-portfolio/"
     },
     {
         title: "Inventory Management",
-        description: "Doctors appointment booking website.",
+        description: "Inventory Managment Webapp.",
         techs: ["Mongoodb", "Node", "Express"],
         img: "/images/inventory_managment.png",
         link:"https://github.com/ismailbohra/shoparel"
@@ -35,7 +54,7 @@ const getTech = (techs) => {
 const html = recentWorks.map(work =>
     `<div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
         <div class="lg:h-36 object-cover">
-            <img class="rounded-t-lg w-full" src=${work.img} alt=${work.title} />
+            <img class="rounded-t-lg w-full h-full" src=${work.img} alt=${work.title} />
         </div>
         <div class="p-3 border-t border-gray-100 dark:border-gray-600">
             <h5 class="text-xl font-bold text-gray-900 dark:text-gray-200">${work.title}</h5>

@@ -3,22 +3,11 @@ const qualifications = [
     title: "B.Tech in Computer Science & Engineering (CSE)",
     year: 2025,
     description:
-      "Sephamore Student completion in 2025 expected. B.Tech in Computer Science from IPS Academy Indore. current cgpa 9.5, Core Team Memeber of GDSC Club.",
+      "B.Tech in Computer Science from IPS Academy Indore. current cgpa 9.5.",
     institute: {
       shortName: "IPS Academy, Institute of Engineering & Science,",
       name: "IES-IPS Academy",
       duration: "July 2021 - July 2025",
-    },
-  },
-  {
-    title: "Full Stack Web Development",
-    year: 2022,
-    description:
-      "Complete web development course which included HTML to JavaScript, React, Node/Expressjs, MongoDB etc.",
-    institute: {
-      shortName: "Campus Active",
-      name: "CMS",
-      duration: "Dec 2021 - present",
     },
   },
   {
