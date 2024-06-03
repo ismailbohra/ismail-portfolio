@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/circular.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/circular.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/circular.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismail Bohra Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/dcaf69cdd3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </head>
+
+  <body class="w-full mx-auto dark:bg-gray-900 relative">
+    <header>
+      <!-- Navbar -->
+      <nav
+        class="px-2 sm:px-4 py-3 border-b lg:border-none border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 w-full fixed top-0 z-20"
+      >
+        <div
+          class="container flex flex-row-reverse lg:flex-row flex-wrap items-center justify-between mx-auto"
+        >
+          <a href="/" class="pr-2" title="Ismail Bohra">
+            <i
+              class="fa-solid fa-code fa-md text-blue-600 dark:text-gray-300"
+            ></i>
+          </a>
+
+          <button
+            data-collapse-toggle="navbar"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 md:hidden dark:text-gray-300 dark:hover:text-gray-100"
+            aria-controls="navbar"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar">
+            <ul
+              class="flex flex-col items-start lg:items-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
+            >
+              <li>
+                <a
+                  href="/"
+                  class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1lbb0VAxtYoyX6Jh3O7wPeW7gsD6_ZKzy/view?usp=share_link"
+                  target="_blank"
+                  class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Resume</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 md:hover:bg-transparent lg:hover:bg-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:hover:bg-transparent dark:hover:bg-gray-700"
+                  >Hire me</a
+                >
+              </li>
+              <li>
+                <button
+                  id="theme-toggle"
+                  type="button"
+                  class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
+                >
+                  <svg
+                    id="theme-toggle-dark-icon"
+                    class="hidden w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                    ></path>
+                  </svg>
+                  <svg
+                    id="theme-toggle-light-icon"
+                    class="hidden w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content area  -->
+    <main class="px-4 lg:px-8 pt-8 max-w-screen-lg mx-auto">
+      <section class="py-6 lg:py-0 mb-16">
+        <form id="demo-form" class="max-w-md mx-auto" method="post" action="https://script.google.com/macros/s/AKfycbze6TZYaMLbkeq0qlIqf2c0ACReN1mwemErOspCmrbqAzV31KVRgxz7VSwBhriF_g0J/exec">
+          <p class="text-center text-4xl font-semibold my-10">Let's Connect</p>
+          <div class="relative z-0 w-full mb-5 group">
+            <input
+              type="text"
+              name="first_name"
+              id="first_name"
+              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              placeholder=" "
+              required
+            />
+            <label
+              for="first_name"
+              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              >Full name</label
+            >
+          </div>
+          <div class="relative z-0 w-full mb-5 group">
+            <input
+              type="text"
+              name="designation"
+              id="designation"
+              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              placeholder=" "
+              required
+            />
+            <label
+              for="designation"
+              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              >Designation</label
+            >
+          </div>
+          <div class="relative z-0 w-full mb-5 group">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              placeholder=" "
+              required
+            />
+            <label
+              for="email"
+              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              >Email address</label
+            >
+          </div>
+          <div class="relative z-0 w-full mb-5 group">
+            <input
+              type="tel"
+              pattern="[0-9]{10}"
+              name="phone"
+              id="phone"
+              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              placeholder=" "
+              required
+            />
+            <label
+              for="phone"
+              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              >Contact number</label
+            >
+          </div>
+          <div class="relative z-0 w-full mb-5 group">
+            <input
+              type="text"
+              name="company"
+              id="company"
+              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              placeholder=" "
+              required
+            />
+            <label
+              for="company"
+              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              >Company</label
+            >
+          </div>
+          <div class="relative z-0 w-full mb-5 group">
+            <input
+              type="text"
+              name="position"
+              id="position"
+              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              placeholder=" "
+              required
+            />
+            <label
+              for="position"
+              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              >Job Position</label
+            >
+          </div>
+          <div class="relative z-0 w-full mb-5 group">
+            <label
+              for="message"
+              class="block mb-2 text-sm text-gray-400 dark:text-white"
+              >Details</label
+            >
+            <textarea
+              id="message"
+              rows="4"
+              name="message"
+              id="message"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="please specify the details"
+            ></textarea>
+          </div>
+          <div class="relative z-0 w-full mb-5 group flex justify-center">
+            <div class="g-recaptcha" data-sitekey="6Ldmxt0pAAAAALtymaKFZWE_3v4eoRbH_b2X7C90" data-callback="enableBtn"></div>
+
+          </div>
+          
+          </div>
+          <button
+          type="submit" id="submitRequest" disabled
+            class="block mx-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <script type="module" src="/assets/js/main.js"></script>
+  </body>
+</html>
+
+<script>
+
+  function enableBtn() {
+    console.log('enable')
+    let btn = document.getElementById("submitRequest");
+    btn.disabled = false; 
+}
+
+</script>
+
