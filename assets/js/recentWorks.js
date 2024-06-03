@@ -1,64 +1,97 @@
 const recentWorks = [
-    {
-        title: "Business Portfolio",
-        description: "Portfolio Website for Ajar Hardware Dubai",
-        techs: ["Html","CSS", "PHP","MySql"],
-        img: "/images/ajar.png",
-        link:"https://ajar-me.com"
-    },
-    {
-        title: "RoadToMotivation Blog",
-        description: "Blogging Website.",
-        techs: ["Codeigniter 3", "Bootstrap","JS"],
-        img: "/images/roadtomotivation.png",
-        link:"https://github.com/ismailbohra/gdsc-android-ipsa"
-    },
-    {
-        title: "Babji Store (E-commerce)",
-        description: "Ecommerce Website.",
-        techs: ["Wordpress", "Woocommerce"],
-        img: "/images/babjistore.png",
-        link:"https://babjistore.com"
-    },
-    {
-        title: "Sadri Jamaat",
-        description: "Community Website.",
-        techs: ["Html","CSS", "PHP","MySql"],
-        img: "/images/sadrijamaat.png",
-        link:"https://sadrijamaat.in"
-    },
-    {
-        title: "Personal Portfolio",
-        description: "Personal portfolio",
-        techs: ["Tailwind", "JS", "Vite"],
-        img: "/images/IsmailPortfolio.png",
-        link:"https://ismailbohra.github.io/ismail-portfolio/"
-    },
-    {
-        title: "Inventory Management",
-        description: "Inventory Managment Webapp.",
-        techs: ["Mongoodb", "Node", "Express"],
-        img: "/images/inventory_managment.png",
-        link:"https://github.com/ismailbohra/shoparel"
-    }
+  {
+    title: "Passwordless Authentication",
+    description: "Secure and seamless authentication system.",
+    techs: ["Simplewebauthn", "Node.js"],
+    img: "/images/pa.png",
+    link: "https://pa.misasoftware.com/signup.html",
+  },
+  {
+    title: "Resume Builder",
+    description: "Interactive tool to create professional resumes.",
+    techs: ["React", "Redux", "MUI"],
+    img: "/images/resume.png",
+    link: "https://monumental-quokka-be747d.netlify.app/",
+  },
+  {
+    title: "Movix",
+    description: "Movie discovery app.",
+    techs: ["React", "Redux", "TMDB"],
+    img: "/images/movix.png",
+    link: "https://fanciful-elf-8a2435.netlify.app/",
+  },
+  {
+    title: "Business Portfolio",
+    description: "Portfolio website for Ajar Hardware Dubai.",
+    techs: ["Html", "CSS", "PHP", "MySql"],
+    img: "/images/ajar.png",
+    link: "https://ajar-me.com",
+  },
+  {
+    title: "RoadToMotivation Blog",
+    description: "Blogging website.",
+    techs: ["Codeigniter 3", "Bootstrap", "JS"],
+    img: "/images/roadtomotivation.png",
+    link: "https://github.com/ismailbohra/gdsc-android-ipsa",
+  },
+  {
+    title: "Babji Store (E-commerce)",
+    description: "E-commerce website.",
+    techs: ["Wordpress", "Woocommerce"],
+    img: "/images/babjistore.png",
+    link: "https://babjistore.com",
+  },
+  {
+    title: "Sadri Jamaat",
+    description: "Community website.",
+    techs: ["Html", "CSS", "PHP", "MySql"],
+    img: "/images/sadrijamaat.png",
+    link: "https://sadrijamaat.in",
+  },
+  {
+    title: "Personal Portfolio",
+    description: "Personal portfolio.",
+    techs: ["Tailwind", "JS", "Vite"],
+    img: "/images/IsmailPortfolio.png",
+    link: "https://ismailbohra.github.io/ismail-portfolio/",
+  },
+  {
+    title: "Inventory Management",
+    description: "Inventory management webapp.",
+    techs: ["Mongoodb", "Node", "Express"],
+    img: "/images/inventory_managment.png",
+    link: "https://github.com/ismailbohra/shoparel",
+  },
 ];
-const parent = document.getElementById('recent-works');
+
+const parent = document.getElementById("recent-works");
 
 const getTech = (techs) => {
-    return techs.map(tech =>
+  return techs
+    .map(
+      (tech) =>
         `<button type="button" class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-3.5 py-2 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
                 ${tech}
-            </button>`).join(" ");
-}
+            </button>`
+    )
+    .join(" ");
+};
 
-const html = recentWorks.map(work =>
+const html = recentWorks.map(
+  (work) =>
     `<div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
         <div class="lg:h-36 object-cover">
-            <img class="rounded-t-lg w-full h-full" src=${work.img} alt=${work.title} />
+            <img class="rounded-t-lg w-full h-full" src=${work.img} alt=${
+      work.title
+    } />
         </div>
         <div class="p-3 border-t border-gray-100 dark:border-gray-600">
-            <h5 class="text-xl font-bold text-gray-900 dark:text-gray-200">${work.title}</h5>
-        <p class="font-light text-gray-800 dark:text-gray-400">${work.description}</p>
+            <h5 class="text-xl font-bold text-gray-900 dark:text-gray-200">${
+              work.title
+            }</h5>
+        <p class="font-light text-gray-800 dark:text-gray-400">${
+          work.description
+        }</p>
         <div class="my-4 flex flex-wrap">
             ${getTech(work.techs)}
         </div>
