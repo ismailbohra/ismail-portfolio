@@ -730,6 +730,8 @@ img { max-width: 100%; display: block; }
   .hero-cta, .social-row { justify-content: center; }
   .hero-avatar { order: -1; margin-bottom: 12px; }
   .hero-tagline { margin-inline: auto; }
+  .social-row { margin-bottom: 28px; }
+  .scroll-cue { display: none; }
 }
 
 @media (max-width: 760px) {
